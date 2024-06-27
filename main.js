@@ -1,0 +1,6 @@
+let string=prompt('String typedagi malumot kiriting')
+let number=prompt('Number typedagi malumot kiriting')
+let boolen=prompt('Boolean typedagi malumot kiriting')
+let a = confirm('Hamma malumotlarni togri kiritganizga ishonchingiz komilmi?')
+alert('Siz kiritgan ' + string + ` sozi string typega tegishli` + '\nSiz kiritgan ' + number + ` sozi number typega tegishli` + '\nSiz kiritgan ' + boolen + ` sozi boolean typega tegishli`)
+console.log(a)
